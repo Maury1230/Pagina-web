@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icono.png">
+    <title>Curso Css</title>
+
+    <meta name="title" content="Aprende CSS" />
+    <meta name="description" content="Esta es una descripción que se vera cuando busques algo de mi pagina" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://maury1230.github.io" />
+    <meta property="og:title" content="Aprende CSS" />
+    <meta property="og:description" content="Esta es una descripción que se vera cuando busques algo de mi pagina" />
+    <meta property="og:image" content="https://maury1230.github.io/images/computer.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="maury1230.com" />
+    <meta property="twitter:title" content="Aprende CSS" />
+    <meta property="twitter:description" content="Esta es una descripción que se vera cuando busques algo de mi pagina" />
+    <meta property="twitter:image" content="https://maury1230.github.io/images/computer.jpg"/>
+
+
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar container">
+            <div class="header__logo">
+                <h2 class="header__content">Cursor</h2>
+            </div>
+            <ul class="navbar__list">
+                <li class="navbar__item"><a class="navbar__link" href="#">Inicio</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Acerca de</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Contacto</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="#">Blog</a></li>
+
+                <i class="bi bi-list-nested nav__close"></i>
+            </ul>
+
+
+            <div class="menu__hamburgesa">
+                <i class="bi bi-list menu__hamburger"></i>
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Aprende <span class="css">Css</span> hasta dominarlo</h1>
+            <p class="hero__content">¡Transforma tu creatividad en código! Con nuestros cursos de CSS, aprende a diseñar sitios web impresionantes de manera sencilla y efectiva. ¡Empieza hoy y da vida a tus ideas!
+            </p>
+            <button class="btn btn-primary">Comienza Ahora</button>
+        </section>
+    </header>
+
+    <main >
+        <section class="main__container container">
+            <h2 class="title">Que aprenderas en este curso?</h2>
+            <p class="main__content">¡Domina CSS y transforma tus páginas web! Aprende desde lo básico hasta técnicas avanzadas como Flexbox y Grid para crear diseños impresionantes y responsivos. ¡Empieza a dar vida a tus ideas hoy!</p>
+        
+            <div class="container__layout">
+                <div class="information">
+                    <i class="bi bi-grid"></i>
+                    <h3 class="subtitle">Css Layout</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus at, consequatur ipsam vel voluptas quidem esse ipsa nam earum laborum ad eum qui doloremque nostrum tempore eaque assumenda officia beatae.</p>
+                </div>
+                <div class="information">
+                    <i class="bi bi-brush"></i>
+                    <h3 class="subtitle">Animaciones</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus at, consequatur ipsam vel voluptas quidem esse ipsa nam earum laborum ad eum qui doloremque nostrum tempore eaque assumenda officia beatae.</p>
+                </div>
+                <div class="information grid">
+                    <i class="bi bi-code"></i>
+                    <h3 class="subtitle">Css Grid</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus at, consequatur ipsam vel voluptas quidem esse ipsa nam earum laborum ad eum qui doloremque nostrum tempore eaque assumenda officia beatae.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero__informacion">
+            <div class="informacion__container container">
+                <div class="informacion__content">
+                    <h3 class="title">Curso completo de css. Domina Css de una vez por TODAS!</h3>
+                    <p class="informacion__parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aperiam cupiditate, beatae debitis facere aut ducimus excepturi quas totam temporibus at atque quidem fuga? Eum, distinctio? Eum sit aliquid repellendus?</p>
+                    <button class="btn btn-primary">Comienza Ya!</button>
+                </div>
+                <div class="informacion__img-container">
+                    <img class="informacion__img" src="./images/laptop.jpg" alt="computer">
+                </div>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="title">Obten el plan perfecto para aprender</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Flexbox</p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">flexbox</p>
+                        <p class="price__features">layout</p>
+                        <p class="price__features">responsive</p>
+                    </div>
+
+                    <button class="btn btn-primary">Empieza ahora</button>
+                </div>
+                <div class="price__element price__element-best">
+                    <p class="price__name">Grid</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Grid</p>
+                        <p class="price__features">Implicit Grid</p>
+                        <p class="price__features">responsive</p>
+                    </div>
+
+                    <button class="btn btn-primary">Empieza ahora</button>
+                </div>
+                <div class="price__element">
+                    <p class="price__name">Animaciones</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Animaciones</p>
+                        <p class="price__features">Transiciones</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+
+                    <button class="btn btn-primary">Empieza ahora</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <i class="bi bi-chevron-left testimony__arrow" id="before"></i>
+                <section class="testimony__body testimony__body-show" data-id="1">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Mi nombre es Jordan Alexander,<br> <span class="testimony__course">Estudiante de Css</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cupiditate, tenetur repudiandae quasi eaque maxime molestias provident alias ea veniam quibusdam molestiae itaque quas, labore voluptates illum autem architecto! Quo.</p>
+                    </div>
+
+                    <div class="testimony__picture">
+                        <img class="testimony__img" src="./images/jordan.jpg" alt="persona">
+                    </div>
+                </section>
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Mi nombre es Samantha Diaz,<br> <span class="testimony__course">Estudiante de Css</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cupiditate, tenetur .</p>
+                    </div>
+
+                    <div class="testimony__picture">
+                        <img class="testimony__img" src="./images/sam.jpg" alt="persona">
+                    </div>
+                </section>
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Mi nombre es Victor Jones,<br> <span class="testimony__course">Estudiante de Css</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cupiditate, tenetur repudiandae quasi eaque maxime molestias.</p>
+                    </div>
+
+                    <div class="testimony__picture">
+                        <img class="testimony__img testimony__victor" src="./images/victor.jpg" alt="persona">
+                    </div>
+                </section>
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Mi nombre es Veronica Fuentes,<br> <span class="testimony__course">Estudiante de Css</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi cupiditate, tenetur Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, reprehenderit!.</p>
+                    </div>
+
+                    <div class="testimony__picture">
+                        <img class="testimony__img testimony__vero" src="./images/veronica.jpg" alt="persona">
+                    </div>
+                </section>
+                <i class="bi bi-chevron-right testimony__arrow" id="next"></i>
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="title">Preguntas Frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique doloremque fuga minima voluptate, odit incidunt?</p>
+
+            <div class="questions__container">
+                <div class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Que es css?
+                        <span class="questions__arrow">
+                            <i class="bi bi-arrow-down-circle questions__icono"></i>
+                        </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci architecto modi consectetur odio maiores voluptates neque numquam cum iusto mollitia, aperiam, earum optio officia voluptas laudantium vel dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae delectus, voluptas, hic aspernatur ullam commodi debitis cum placeat ipsum saepe voluptatum ipsa rerum? Quos, expedita quaerat. Similique consequatur id aperiam?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="questions__container">
+                <div class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Que es css Grid?
+                        <span class="questions__arrow">
+                            <i class="bi bi-arrow-down-circle questions__icono"></i>
+                        </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci architecto modi consectetur odio maiores voluptates neque numquam cum iusto mollitia, aperiam, earum optio officia voluptas laudantium vel dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae delectus, voluptas, hic aspernatur ullam commodi debitis cum placeat ipsum saepe voluptatum ipsa rerum? Quos, expedita quaerat. Similique consequatur id aperiam?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="questions__container">
+                <div class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Que es aprendere en este curso?
+                        <span class="questions__arrow">
+                            <i class="bi bi-arrow-down-circle questions__icono"></i>
+                        </span>
+                        </h3>
+
+                        <p class="questions__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur adipisci architecto modi consectetur odio maiores voluptates neque numquam cum iusto mollitia, aperiam, earum optio officia voluptas laudantium vel dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae delectus, voluptas, hic aspernatur ullam commodi debitis cum placeat ipsum saepe voluptatum ipsa rerum? Quos, expedita quaerat. Similique consequatur id aperiam?</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="questions__offer">
+                <h2 class="title">Estas listo para aprender css?</h2>
+                <p class="questions__copy">La aventura de dominar el diseño web comienza aquí. Con CSS, no solo mejorarás la apariencia de tus proyectos, sino que también ganarás las habilidades necesarias para hacer que tu visión cobre vida en la pantalla. Acompáñanos en este emocionante viaje y descubre cómo transformar líneas de código en experiencias visuales impactantes. ¡El futuro de tus habilidades web te espera!</p>
+                <button class="btn btn-primary">Aprende ahora</button>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container">
+            <nav class="nav nav__footer">
+                <h2 class="footer__title">Curso Css</h2>
+                <ul class="nav__list nav__list--footer">
+                    <li class="navbar__item"><a class="navbar__link" href="#">Inicio</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#">Acerca de</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#">Contacto</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="#">Blog</a></li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/xgvekyld"
+            method="POST">
+                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email" class="footer__input" name="email">
+                    <input type="submit" value="Registrate" class="footer__submit" >
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><i class="bi bi-facebook footer__img"></i></a>
+                <a href="#" class="footer__icons"><i class="bi bi-whatsapp footer__img"></i></a>
+                <a href="#" class="footer__icons"><i class="bi bi-github footer__img"></i></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Mauricio Contreras</h3>
+        </section>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
